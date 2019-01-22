@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mybatis-penguin.iml" filepath="$PROJECT_DIR$/mybatis-penguin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-penguin-api/mybatis-penguin-api.iml" filepath="$PROJECT_DIR$/mybatis-penguin-api/mybatis-penguin-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-penguin-core/mybatis-penguin-core.iml" filepath="$PROJECT_DIR$/mybatis-penguin-core/mybatis-penguin-core.iml" />
+    </modules>
+  </component>
+</project>
