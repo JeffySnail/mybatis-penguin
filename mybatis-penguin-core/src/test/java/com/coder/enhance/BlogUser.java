@@ -5,6 +5,7 @@ import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.util.Date;
 
 /**
  * @author jeffy
@@ -29,6 +30,12 @@ public class BlogUser {
 
     @Column(name = "user_nation")
     private String userNation;
+
+    @Column(name = "add_time")
+    private Date addTime;
+
+    @Column(name = "update_time")
+    private Date updateTime;
 
 
     @Override
@@ -80,5 +87,21 @@ public class BlogUser {
 
     public void setUserNation(String userNation) {
         this.userNation = userNation;
+    }
+
+    public Date getAddTime() {
+        return addTime;
+    }
+
+    public void setAddTime(Date addTime) {
+        this.addTime = addTime;
+    }
+
+    public Date getUpdateTime() {
+        return updateTime;
+    }
+
+    public void setUpdateTime(Date updateTime) {
+        this.updateTime = updateTime;
     }
 }
