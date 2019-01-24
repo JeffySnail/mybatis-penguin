@@ -18,6 +18,11 @@ public class PenguinConfiguration extends Configuration {
         this.environment = environment;
     }
 
+    public PenguinConfiguration() {
+
+    }
+
+
     @Override
     public MapperRegistry getMapperRegistry() {
         return this.mapperRegistry;

@@ -1,6 +1,8 @@
 package com.coder.enhance;
 
+import com.coder.enhance.intercepter.PagerInterceptor;
 import com.coder.enhance.mybatis.PenguinConfiguration;
+import com.coder.enhance.mybatis.PenguinSqlSessionFactoryBuilder;
 import org.apache.ibatis.datasource.pooled.PooledDataSourceFactory;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.mapping.Environment;
@@ -73,10 +75,11 @@ public abstract class AbstractCRUDTest {
         return properties;
     }
 
-    protected SqlSession getSqlSessionWithXML() throws IOException {
+    protected static SqlSession getSqlSessionWithXML() throws IOException {
         InputStream inputStream = Resources.getResourceAsStream("configuration.xml");
-        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream, "development");
-        SqlSession sqlSession = sqlSessionFactory.openSession();
+        SqlSessionFactory sqlSessionFactory = new PenguinSqlSessionFactoryBuilder().build(inputStream, "development");
+        sqlSession = sqlSessionFactory.openSession();
+        sqlSessionFactory.getConfiguration().addInterceptor(new PagerInterceptor());
         return sqlSession;
     }
 

@@ -30,7 +30,7 @@ mybatis-penguin 是mybatis的扩展。
 # plan
 
 * 通过修改Bean自动关联table字段的增加修改
-
+* 分页是通过插件实现，所以在configuration中需要添加PagerInterceptor，具体可以参照测试用例
 
 
 
