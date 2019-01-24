@@ -11,9 +11,14 @@ public class PageModel<T> implements Serializable {
     private static final long serialVersionUID = -8802145055234572275L;
 
     /**
-     *  total count
+     * total count
      */
     private int totalCount;
+
+    /**
+     * total page count
+     */
+    private int pageCount;
 
     /**
      * page size
@@ -26,7 +31,7 @@ public class PageModel<T> implements Serializable {
     private int page = 1;
 
     /**
-     *  record list
+     * record list
      */
     private List<T> records;
 
@@ -91,5 +96,26 @@ public class PageModel<T> implements Serializable {
 
     public void setSortAsc(boolean sortAsc) {
         this.sortAsc = sortAsc;
+    }
+
+    public int getPageCount() {
+        return pageCount;
+    }
+
+    public void setPageCount(int pageCount) {
+        this.pageCount = pageCount;
+    }
+
+    @Override
+    public String toString() {
+        return "PageModel{" +
+                "totalCount=" + totalCount +
+                ", pageCount=" + pageCount +
+                ", pageSize=" + pageSize +
+                ", page=" + page +
+                ", records=" + records +
+                ", sortField='" + sortField + '\'' +
+                ", sortAsc=" + sortAsc +
+                '}';
     }
 }

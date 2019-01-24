@@ -131,7 +131,8 @@ public class PenguinMapperMethod {
                 PageModel<E> pageModel = new PageModel<>();
                 pageModel.setPage(pager.getPage());
                 pageModel.setPageSize(pager.getPageSize());
-                pageModel.setTotalCount(pager.getTotal());
+                pageModel.setTotalCount(pager.getTotalCount());
+                pageModel.setPageCount(pager.getTotalPages());
                 pageModel.setRecords(result);
                 return pageModel;
             } else {
@@ -257,7 +258,8 @@ public class PenguinMapperMethod {
                 this.returnType = method.getReturnType();
             }
             this.returnsVoid = void.class.equals(this.returnType);
-            this.returnsMany = (configuration.getObjectFactory().isCollection(this.returnType) || this.returnType.isArray());
+            this.returnsMany = (configuration.getObjectFactory().isCollection(this.returnType) || this.returnType.isArray()
+                    || PageModel.class.isAssignableFrom(this.returnType));
             this.returnsCursor = Cursor.class.equals(this.returnType);
             this.mapKey = getMapKey(method);
             this.returnsMap = (this.mapKey != null);

@@ -2,16 +2,23 @@ package com.coder.enhance.plugin;
 
 import org.apache.ibatis.session.RowBounds;
 
+import java.io.Serializable;
+
 /**
  * @author jeffy
  * @date 2019/1/22
  **/
-public class Pager extends RowBounds {
+public class Pager extends RowBounds implements Serializable {
+
+    /**
+     * total count
+     */
+    private int totalCount;
 
     /**
      * total
      */
-    private int total;
+    private int totalPages;
     /**
      * current page
      */
@@ -30,22 +37,28 @@ public class Pager extends RowBounds {
     private boolean sortAsc = true;
 
     public Pager(int page, int pageSize) {
+        if (page <= 0) {
+            throw new IllegalArgumentException("page begin at 1");
+        }
         this.page = page;
         this.pageSize = pageSize;
     }
 
     public Pager(int offset, int limit, int page, int pageSize) {
         super(offset, limit);
+        if (page <= 0) {
+            throw new IllegalArgumentException("page begin at 1");
+        }
         this.page = page;
         this.pageSize = pageSize;
     }
 
-    public int getTotal() {
-        return total;
+    public int getTotalPages() {
+        return totalPages;
     }
 
-    public void setTotal(int total) {
-        this.total = total;
+    public void setTotalPages(int totalPages) {
+        this.totalPages = totalPages;
     }
 
     public int getPage() {
@@ -78,5 +91,26 @@ public class Pager extends RowBounds {
 
     public void setSortAsc(boolean sortAsc) {
         this.sortAsc = sortAsc;
+    }
+
+
+    public int getTotalCount() {
+        return totalCount;
+    }
+
+    public void setTotalCount(int totalCount) {
+        this.totalCount = totalCount;
+    }
+
+    @Override
+    public String toString() {
+        return "Pager{" +
+                "totalCount=" + totalCount +
+                ", totalPages=" + totalPages +
+                ", page=" + page +
+                ", pageSize=" + pageSize +
+                ", sortField='" + sortField + '\'' +
+                ", sortAsc=" + sortAsc +
+                '}';
     }
 }

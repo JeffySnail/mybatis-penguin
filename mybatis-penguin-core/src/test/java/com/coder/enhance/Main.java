@@ -1,6 +1,9 @@
 package com.coder.enhance;
 
+import com.code.enhance.PageModel;
+import com.coder.enhance.intercepter.PagerInterceptor;
 import com.coder.enhance.mybatis.PenguinConfiguration;
+import com.coder.enhance.plugin.Pager;
 import org.apache.ibatis.datasource.pooled.PooledDataSourceFactory;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.mapping.Environment;
@@ -15,7 +18,6 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.List;
 import java.util.Properties;
 
 /**
@@ -28,7 +30,7 @@ public class Main {
 
     public static void main(String[] args) {
         SqlSession sqlSession = null;
-        try{
+        try {
             sqlSession = getSqlSessionWithOutXMl();
             BlogUserMapper mapper = sqlSession.getMapper(BlogUserMapper.class);
 //            mapper.findByUserId(12);
@@ -41,19 +43,29 @@ public class Main {
 
 //            BlogUser blog = mapper.findByUserId(25);
 //            System.err.println(blog.toString());
-            List<BlogUser> users = mapper.findAll();
-            users.forEach(System.out::print);
+            Pager pager = new Pager(2, 3);
+
+            BlogUser blogUser = new BlogUser();
+            PageModel<BlogUser> pageModel = mapper.findByPage(pager);
+            System.err.println(pageModel.getPage());
+            System.err.println(pageModel.getPageSize());
+            System.err.println(pageModel.getSortField());
+            System.err.println(pageModel.getTotalCount());
+            System.err.println(pageModel.getPageCount());
+            pageModel.getRecords().forEach(System.err::println);
+//            List<BlogUser> users = mapper.findAll();
+//            users.forEach(System.out::print);
             System.err.println("");
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             sqlSession.commit();
 
             sqlSession.close();
         }
     }
 
-    private static SqlSession getSqlSessionWithOutXMl(){
+    private static SqlSession getSqlSessionWithOutXMl() {
         Properties properties = new Properties();
         properties.setProperty("driver", "com.mysql.jdbc.Driver");
         properties.setProperty("url", "jdbc:mysql://127.0.0.1:3306/mybatis");
@@ -67,6 +79,8 @@ public class Main {
         Configuration configuration = new PenguinConfiguration(environment);
 //        configuration.addMapper(BlogUserDAO.class);
         configuration.addMapper(BlogUserMapper.class);
+        configuration.addInterceptor(new PagerInterceptor());
+//        configuration.addInterceptor(new ResultHandlerInterceptor());
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(configuration);
         return sqlSessionFactory.openSession(true);
     }

@@ -3,7 +3,6 @@ package com.coder.enhance.mybatis;
 import com.code.enhance.PageModel;
 import com.coder.enhance.BaseMapper;
 import com.coder.enhance.annotation.Table;
-import com.coder.enhance.plugin.Pager;
 import org.apache.ibatis.annotations.MapKey;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.ResultType;
@@ -65,7 +64,7 @@ public class MapperUtils {
         List<A> annotations = new ArrayList();
         Parameter[] parameters = method.getParameters();
         for (int i = 0; i < parameterTypes.length; ++i) {
-            Parameter parameter= parameters[i];
+            Parameter parameter = parameters[i];
             A annotation = parameter.getAnnotation(annoType);
             if (annotation != null) {
                 annotations.add(annotation);
@@ -146,7 +145,8 @@ public class MapperUtils {
         Class<?> parameterType = null;
         Class<?>[] parameterTypes = method.getParameterTypes();
         for (Class<?> type : parameterTypes) {
-            if (!Pager.class.isAssignableFrom(type) && !ResultHandler.class.isAssignableFrom(type)) {
+//            if (!Pager.class.isAssignableFrom(type) && !ResultHandler.class.isAssignableFrom(type)) {
+            if (!ResultHandler.class.isAssignableFrom(type)) {
                 if (parameterType == null) {
                     parameterType = type;
                 } else {

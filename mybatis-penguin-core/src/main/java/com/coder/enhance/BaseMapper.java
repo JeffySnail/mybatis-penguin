@@ -43,7 +43,7 @@ public interface BaseMapper<Entity, Primary> {
      * @param pager
      * @return
      */
-    PageModel<Entity> findByPage(Pager pager);
+    PageModel<Entity> findByPage(@Param("pager") Pager pager);
 
     /**
      * 分页查询，不需要总条数
