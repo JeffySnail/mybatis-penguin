@@ -1,25 +1,33 @@
 package com.coder.enhance;
 
-import com.coder.enhance.annotation.Column;
-import com.coder.enhance.annotation.Table;
+
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * @author jeffy
  * @date 2019/1/22
  **/
-@Table(name = "blog_user", comment = "blog user table")
+@Table(name = "blog_user")
 public class BlogUser {
 
-    @Column(name = "user_id", isKey = true, type = "int")
-    private int userId;
+    @Id
+    @GeneratedValue
+    @Column(name = "user_id")
+    private Integer userId;
 
-    @Column(name = "user_name", isKey = true, type = "String")
+    @Column(name = "user_name")
     private String userName;
-    @Column(name = "user_sex", isKey = true, type = "String")
-    private int userSex;
-    @Column(name = "user_address", isKey = true, type = "String")
+
+    @Column(name = "user_sex")
+    private Integer userSex;
+
+    @Column(name = "user_address")
     private String userAddress;
-    @Column(name = "user_nation", isKey = true, type = "String")
+
+    @Column(name = "user_nation")
     private String userNation;
 
 
@@ -34,11 +42,11 @@ public class BlogUser {
                 '}';
     }
 
-    public int getUserId() {
+    public Integer getUserId() {
         return userId;
     }
 
-    public void setUserId(int userId) {
+    public void setUserId(Integer userId) {
         this.userId = userId;
     }
 
@@ -50,11 +58,11 @@ public class BlogUser {
         this.userName = userName;
     }
 
-    public int getUserSex() {
+    public Integer getUserSex() {
         return userSex;
     }
 
-    public void setUserSex(int userSex) {
+    public void setUserSex(Integer userSex) {
         this.userSex = userSex;
     }
 

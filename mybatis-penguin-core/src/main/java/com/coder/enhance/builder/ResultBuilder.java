@@ -1,6 +1,5 @@
 package com.coder.enhance.builder;
 
-import com.coder.enhance.annotation.Table;
 import com.coder.enhance.mybatis.EntityPortray;
 import com.coder.enhance.mybatis.MapperUtils;
 import org.apache.ibatis.annotations.*;
@@ -15,6 +14,7 @@ import org.apache.ibatis.type.JdbcType;
 import org.apache.ibatis.type.TypeHandler;
 import org.apache.ibatis.type.UnknownTypeHandler;
 
+import javax.persistence.Table;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.HashMap;

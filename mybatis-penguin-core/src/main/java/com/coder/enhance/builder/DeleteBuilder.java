@@ -28,14 +28,14 @@ public class DeleteBuilder implements SqlBuilder {
             String param = entry.getKey();
             Class<?> type = entry.getValue().getType();
             String columnKey = param;
-            if (param.equals(entityPortray.getPrimaryToken())) {
+            if (param.equals(entityPortray.getPrimaryToken()) && !Collection.class.isAssignableFrom(type)) {
                 columnKey = entityPortray.getPrimaryProperty();
                 type = entityPortray.getPrimaryType();
             }
 
             if (Collection.class.isAssignableFrom(type)) {
                 builder.append(" and ")
-                        .append(entityPortray.getColumn(columnKey))
+                        .append(columnMap.get(entityPortray.getPrimaryProperty()))
                         .append(" in ")
                         .append("<foreach collection=\"")
                         .append(param)

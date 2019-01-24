@@ -2,7 +2,6 @@ package com.coder.enhance.mybatis;
 
 import com.code.enhance.PageModel;
 import com.coder.enhance.BaseMapper;
-import com.coder.enhance.annotation.Table;
 import org.apache.ibatis.annotations.MapKey;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.ResultType;
@@ -13,6 +12,7 @@ import org.apache.ibatis.scripting.LanguageDriver;
 import org.apache.ibatis.session.Configuration;
 import org.apache.ibatis.session.ResultHandler;
 
+import javax.persistence.Table;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.*;
 import java.util.*;
@@ -145,7 +145,6 @@ public class MapperUtils {
         Class<?> parameterType = null;
         Class<?>[] parameterTypes = method.getParameterTypes();
         for (Class<?> type : parameterTypes) {
-//            if (!Pager.class.isAssignableFrom(type) && !ResultHandler.class.isAssignableFrom(type)) {
             if (!ResultHandler.class.isAssignableFrom(type)) {
                 if (parameterType == null) {
                     parameterType = type;

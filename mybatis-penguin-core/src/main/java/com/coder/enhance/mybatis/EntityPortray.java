@@ -1,12 +1,14 @@
 package com.coder.enhance.mybatis;
 
-import com.coder.enhance.annotation.Column;
-import com.coder.enhance.annotation.GeneratedValue;
-import com.coder.enhance.annotation.Table;
+import com.coder.enhance.exception.MybatisSqlResourceException;
 import org.apache.ibatis.logging.Log;
 import org.apache.ibatis.logging.LogFactory;
 import org.apache.ibatis.type.TypeHandler;
 
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.beans.Transient;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
@@ -63,15 +65,14 @@ public class EntityPortray {
                     || field.getAnnotation(Transient.class) != null) {
                 continue;
             }
+
             Column column = field.getAnnotation(Column.class);
-            if (hasKey && column.isKey()) {
-                logger.warn("Table " + name + " has multi key");
-            }
-            if (column.isKey()) {
-                hasKey = true;
+            if (field.getAnnotation(Id.class) != null) {
                 primaryColumn = column.name();
                 primaryProperty = field.getName();
                 primaryType = field.getType();
+                generatedValue = field.getAnnotation(GeneratedValue.class);
+                hasKey = true;
             }
             String columnName = field.getName();
             if (column != null) {
@@ -81,7 +82,10 @@ public class EntityPortray {
             columnTypeMap.put(field.getName(), field.getType());
         }
         if (!hasKey) {
-            logger.warn("Table " + name + "has no primary key");
+            logger.error("Table " + name + "has no primary key, please use @javax.persistence.Id to annotate one field of " + entityClass);
+            System.err.println("Table " + name + "has no primary key, please use @javax.persistence.Id to annotate one field of " + entityClass);
+            throw MybatisSqlResourceException.newException("Table " + name + "has no primary key, please use @javax.persistence.Id to annotate one field of " + entityClass);
+
         }
     }
 

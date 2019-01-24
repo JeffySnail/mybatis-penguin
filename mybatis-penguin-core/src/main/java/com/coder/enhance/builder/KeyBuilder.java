@@ -1,7 +1,5 @@
 package com.coder.enhance.builder;
 
-import com.coder.enhance.annotation.GeneratedValue;
-import com.coder.enhance.annotation.GenerationType;
 import com.coder.enhance.mybatis.EntityPortray;
 import com.coder.enhance.mybatis.MapperUtils;
 import org.apache.ibatis.annotations.Options;
@@ -15,6 +13,8 @@ import org.apache.ibatis.mapping.*;
 import org.apache.ibatis.scripting.LanguageDriver;
 import org.apache.ibatis.session.Configuration;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import java.lang.reflect.Method;
 
 /**
