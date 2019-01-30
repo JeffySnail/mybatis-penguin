@@ -8,12 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis-penguin-api" />
         <module name="mybatis-penguin-core" />
+        <module name="mybatis-penguin-spring-boot-starter" />
+        <module name="mybatis-penguin-spring-boot-starter-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mybatis-penguin" target="1.8" />
       <module name="mybatis-penguin-api" target="1.8" />
       <module name="mybatis-penguin-core" target="1.8" />
+      <module name="mybatis-penguin-spring-boot-starter" target="1.8" />
+      <module name="mybatis-penguin-spring-boot-starter-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

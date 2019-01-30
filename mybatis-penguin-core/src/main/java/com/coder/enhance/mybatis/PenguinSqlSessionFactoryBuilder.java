@@ -1,10 +1,10 @@
 package com.coder.enhance.mybatis;
 
-import org.apache.ibatis.builder.xml.XMLConfigBuilder;
 import org.apache.ibatis.exceptions.ExceptionFactory;
 import org.apache.ibatis.executor.ErrorContext;
 import org.apache.ibatis.session.Configuration;
 import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.apache.ibatis.session.defaults.DefaultSqlSessionFactory;
 
 import java.io.IOException;
@@ -16,7 +16,7 @@ import java.util.Properties;
  * @author jeffy
  * @date 2019/1/25
  **/
-public class PenguinSqlSessionFactoryBuilder {
+public class PenguinSqlSessionFactoryBuilder extends SqlSessionFactoryBuilder {
     public SqlSessionFactory build(Reader reader) {
         return build(reader, null, null);
     }

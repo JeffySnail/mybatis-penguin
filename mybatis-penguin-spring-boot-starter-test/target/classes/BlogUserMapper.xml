@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.coder.enhance.mapper.BlogUserMapper">
+
+    <resultMap id="BaseMap" type="com.coder.enhance.entity.BlogUser">
+        <id property="userId" column="user_id"/>
+        <result property="userName" column="user_name"/>
+        <result property="userSex" column="user_sex"/>
+        <result property="userAddress" column="user_address"/>
+        <result property="userNation" column="user_nation"/>
+        <result property="addTime" column="add_time"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+    <select id="getUserByUserName" parameterType="string" resultMap="BaseMap">
+        SELECT * FROM blog_user WHERE user_name = #{userName}
+    </select>
+    <select id="getUserByUserNameByPage" parameterType="string" resultMap="BaseMap">
+        SELECT * FROM blog_user WHERE user_name = #{userName}
+    </select>
+    <sql id="allFields">
+        user_id,
+        user_name,
+        user_sex,
+        user_address,
+        user_nation,
+        add_time,
+        update_time
+    </sql>
+</mapper>

@@ -36,8 +36,8 @@ public class XmlSelectTest extends AbstractCRUDTest {
         Pager pager = new Pager(1, 2);
         PageModel pageModel = blogUserMapper.getUserByUserNameByPage("jeffy", pager);
         Optional.ofNullable(pageModel).ifPresent(e -> {
-            System.err.println("pageCount = " + e.getPageCount());
             System.err.println("currentPage = " + e.getPage());
+            System.err.println("pageCount = " + e.getPageCount());
             System.err.println("pageSize = " + e.getPageSize());
             System.err.println("totalCount = " + e.getTotalCount());
             pageModel.getRecords().forEach(System.err::println);

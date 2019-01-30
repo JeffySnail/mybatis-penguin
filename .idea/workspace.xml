@@ -1,22 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f8ffb4f-16eb-4eba-b73a-45f8d2995040" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinSqlSessionFactoryBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinXMLConfigBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/xml/XmlSelectTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-core/src/test/resources/BlogUserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-core/src/test/resources/configuration.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-core/src/test/resources/configuration.xml" />
+    <list default="true" id="126c4f65-b31b-4c7f-a7a7-7f73f4cb28c4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/ApplicationBoot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/controller/BlogUserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/entity/BlogDetail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/entity/BlogUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/mapper/BlogDetailMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/mapper/BlogUserMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/service/BlogService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/service/BlogServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/resources/BlogUserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/resources/init.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/resources/mybatis-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/ConfigurationCustomizer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/EnableMybatisPenguin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/MybatisAutoConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/MybatisProperties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/PenguinSqlSessionFactoryBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/SpringBootVFS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/resources/META-INF/spring.factories" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/resources/META-INF/spring.provides" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis-penguin-api/mybatis-penguin-api.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis-penguin-core/mybatis-penguin-core.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis-penguin.iml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinConfiguration.java" afterPath="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/AbstractCRUDTest.java" afterPath="$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/AbstractCRUDTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/BlogUserMapper.java" afterPath="$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/BlogUserMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-api/pom.xml" afterPath="$PROJECT_DIR$/mybatis-penguin-api/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-core/pom.xml" afterPath="$PROJECT_DIR$/mybatis-penguin-core/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinSqlSessionFactoryBuilder.java" afterPath="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinSqlSessionFactoryBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-core/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/mybatis-penguin-core/src/main/resources/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/xml/XmlSelectTest.java" afterPath="$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/xml/XmlSelectTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-core/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/mybatis-penguin-core/target/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
-    <ignored path="$PROJECT_DIR$/mybatis-penguin-core/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/target/" />
     <ignored path="$PROJECT_DIR$/mybatis-penguin-api/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis-penguin-core/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,157 +60,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AbstractCRUDTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/AbstractCRUDTest.java">
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="82" column="82" lean-forward="false" selection-start-line="82" selection-start-column="82" selection-end-line="82" selection-end-column="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2188#2189#0" expanded="true" />
-                <element signature="e#2245#2246#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XmlSelectTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/xml/XmlSelectTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="36" column="68" lean-forward="false" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1723#1724#0" expanded="true" />
-                <element signature="e#1753#1754#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogUserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/test/resources/BlogUserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-              <folding>
-                <marker date="1548352914000" expanded="true" signature="798:851" ph="SELECT * FRO... blog_user" />
-                <marker date="1548352914000" expanded="true" signature="959:1012" ph="SELECT * FRO... blog_user" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/select/SelectTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="65" column="11" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="65" selection-end-column="11" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PenguinSqlSessionFactoryBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinSqlSessionFactoryBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-512">
-              <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
-                <element signature="e#789#790#0" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#919#920#0" expanded="true" />
-                <element signature="e#2645#2646#0" expanded="true" />
-                <element signature="e#2704#2705#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/builder/BaseBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PagerInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/intercepter/PagerInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeleteBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/DeleteBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PenguinXMLConfigBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinXMLConfigBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="73" column="28" lean-forward="false" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5254#5284#1" expanded="true" />
-                <element signature="e#11629#11659#1" expanded="true" />
-                <element signature="e#12279#12309#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogUserMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/BlogUserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="AnnotationType" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>PageModel</find>
-      <find>wrap</find>
-      <find>parameterMap</find>
-      <find>plugin</find>
-      <find>pagemodel</find>
-      <find>no primary key please</find>
-      <find>deleteAll</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -185,71 +81,11 @@
       <projects_view />
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/exception/MysqlResourceException.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/exception/MybatisSqlResourceException.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/annotation/GenerationType.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/UpdateBuilder.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/annotation/GeneratedValue.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/annotation/Column.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/BlogUser.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/BlogUserMapper.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/InsertBuilder.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/Main.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/SelectBuilder.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/intercepter/PagerIntercepter.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinMapperAnnotationBuilder.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/intercepter/ResultHandlerInterceptor.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-api/src/main/java/com/code/enhance/PageModel.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/intercepter/PagerInterceptor.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/plugin/Pager.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinMapperMethod.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/KeyBuilder.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/ResultBuilder.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/MapperUtils.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/EntityPortray.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/test/resources/bloguser.sql" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/Main.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/select/SelectTest.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/insert/InsertTest.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/update/UpdateTest.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/BaseMapper.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/DeleteBuilder.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/delete/DeleteTest.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/BlogUser.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinConfiguration.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinSqlSessionFactoryBuilder.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinXMLConfigBuilder.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/BlogUserMapper.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/test/resources/BlogUserMapper.xml" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/xml/XmlSelectTest.java" />
-        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/AbstractCRUDTest.java" />
-      </list>
-    </option>
-  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -362,8 +198,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -371,216 +205,12 @@
               <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enhance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="intercepter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enhance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="delete" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="select" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="xml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.4.6.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.4.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.4.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
-              <item name="binding" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.4.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.4.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
-              <item name="xml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.4.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mapping" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.4.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
-              <item name="session" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="mybatis-3.4.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
-              <item name="transaction" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -589,17 +219,6 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.coder.enhance" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mybatis-penguin-core/src/test/resources" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -613,132 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.XmlSelectTest.pagerTest">
-    <configuration name="DeleteTest.deleteAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.coder.enhance.delete.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mybatis-penguin-core" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.coder.enhance.delete" />
-      <option name="MAIN_CLASS_NAME" value="com.coder.enhance.delete.DeleteTest" />
-      <option name="METHOD_NAME" value="deleteAllTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="DeleteTest.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.coder.enhance.delete.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mybatis-penguin-core" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.coder.enhance.delete" />
-      <option name="MAIN_CLASS_NAME" value="com.coder.enhance.delete.DeleteTest" />
-      <option name="METHOD_NAME" value="deleteTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="UpdateTest.updateAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.coder.enhance.update.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mybatis-penguin-core" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.coder.enhance.update" />
-      <option name="MAIN_CLASS_NAME" value="com.coder.enhance.update.UpdateTest" />
-      <option name="METHOD_NAME" value="updateAllTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="XmlSelectTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.coder.enhance.xml.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mybatis-penguin-core" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.coder.enhance.xml" />
-      <option name="MAIN_CLASS_NAME" value="com.coder.enhance.xml.XmlSelectTest" />
-      <option name="METHOD_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="XmlSelectTest.pagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.coder.enhance.xml.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mybatis-penguin-core" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.coder.enhance.xml" />
-      <option name="MAIN_CLASS_NAME" value="com.coder.enhance.xml.XmlSelectTest" />
-      <option name="METHOD_NAME" value="pagerTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -819,134 +313,56 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.UpdateTest.updateAllTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DeleteTest.deleteTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DeleteTest.deleteAllTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.XmlSelectTest.Test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.XmlSelectTest.pagerTest" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.XmlSelectTest.pagerTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.XmlSelectTest.Test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DeleteTest.deleteTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DeleteTest.deleteAllTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UpdateTest.updateAllTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2f8ffb4f-16eb-4eba-b73a-45f8d2995040" name="Default" comment="" />
-      <created>1548152407926</created>
+      <changelist id="126c4f65-b31b-4c7f-a7a7-7f73f4cb28c4" name="Default" comment="" />
+      <created>1548815665650</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1548152407926</updated>
-      <workItem from="1548152409305" duration="11814000" />
-      <workItem from="1548232326186" duration="32523000" />
+      <updated>1548815665650</updated>
+      <workItem from="1548815666968" duration="9000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="XmlSelectTest_Test - 2019.01.25 at 00h 58m 10s.xml">
-      <configuration name="XmlSelectTest.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="XmlSelectTest_Test - 2019.01.25 at 01h 26m 33s.xml">
-      <configuration name="XmlSelectTest.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="XmlSelectTest_Test - 2019.01.25 at 01h 31m 21s.xml">
-      <configuration name="XmlSelectTest.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="XmlSelectTest_Test - 2019.01.25 at 01h 57m 02s.xml">
-      <configuration name="XmlSelectTest.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="XmlSelectTest_Test - 2019.01.25 at 01h 58m 16s.xml">
-      <configuration name="XmlSelectTest.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="XmlSelectTest_pagerTest - 2019.01.25 at 02h 00m 54s.xml">
-      <configuration name="XmlSelectTest.pagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="XmlSelectTest_pagerTest - 2019.01.25 at 02h 01m 56s.xml">
-      <configuration name="XmlSelectTest.pagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="XmlSelectTest_pagerTest - 2019.01.25 at 02h 03m 13s.xml">
-      <configuration name="XmlSelectTest.pagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="XmlSelectTest_pagerTest - 2019.01.25 at 02h 03m 30s.xml">
-      <configuration name="XmlSelectTest.pagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="XmlSelectTest_pagerTest - 2019.01.25 at 02h 03m 35s.xml">
-      <configuration name="XmlSelectTest.pagerTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44337000" />
+    <option name="totallyTimeSpent" value="9000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="36" y="23" width="1404" height="877" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24034335" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24034335" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -955,618 +371,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/intercepter/PagerInterceptor.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/intercepter/PagerInterceptor.java</url>
-          <line>93</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/intercepter/PagerInterceptor.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/intercepter/PagerInterceptor.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-      </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="28" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/annotation/OrderBy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/SelectBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0.2/persistence-api-1.0.2-sources.jar!/javax/persistence/Column.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="138" column="12" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="291" column="37" lean-forward="false" selection-start-line="291" selection-start-column="28" selection-end-line="291" selection-end-column="37" />
-          <folding>
-            <element signature="e#8918#8919#0" expanded="false" />
-            <element signature="e#8973#8974#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinMapperMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="131" column="25" lean-forward="false" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinMapperProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinMapperProxyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/exception/MybatisSqlResourceException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0.2/persistence-api-1.0.2-sources.jar!/javax/persistence/Id.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0.2/persistence-api-1.0.2-sources.jar!/javax/persistence/GeneratedValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="73" column="28" lean-forward="true" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinMapperAnnotationBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2760">
-          <caret line="110" column="33" lean-forward="false" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/ResultBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="58" column="41" lean-forward="false" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/KeyBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#5080#5081#0" expanded="false" />
-            <element signature="e#5112#5113#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/plugin/Pager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="46" column="62" lean-forward="false" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/MapperUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/RowBounds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/UpdateBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="100" column="19" lean-forward="false" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/EntityPortray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="163" column="18" lean-forward="false" selection-start-line="163" selection-start-column="18" selection-end-line="163" selection-end-column="18" />
-          <folding>
-            <element signature="e#3960#3961#0" expanded="false" />
-            <element signature="e#3994#3995#0" expanded="false" />
-            <element signature="e#5320#5321#0" expanded="false" />
-            <element signature="e#5355#5356#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/InsertBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="383" column="10" lean-forward="false" selection-start-line="383" selection-start-column="10" selection-end-line="383" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/insert/InsertTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1786#1787#0" expanded="false" />
-            <element signature="e#1816#1817#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/update/UpdateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="69" column="26" lean-forward="false" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2628#2629#0" expanded="false" />
-            <element signature="e#2658#2659#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/test/resources/bloguser.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyUpdater">
-        <state />
-      </provider>
-      <provider editor-type-id="YarmPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="48" column="22" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/BlogUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-972">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1910#1911#0" expanded="true" />
-            <element signature="e#1940#1941#0" expanded="true" />
-            <element signature="e#1984#1985#0" expanded="true" />
-            <element signature="e#2022#2023#0" expanded="true" />
-            <element signature="e#2057#2058#0" expanded="true" />
-            <element signature="e#2090#2091#0" expanded="true" />
-            <element signature="e#2140#2141#0" expanded="true" />
-            <element signature="e#2184#2185#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/test/resources/configuration.properties">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/delete/DeleteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="356">
-            <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="26" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/BaseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/SqlSessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/binding/MapperRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/test/resources/configuration.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/transaction/TransactionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/mapping/Environment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="739" column="18" lean-forward="false" selection-start-line="739" selection-start-column="18" selection-end-line="739" selection-end-column="18" />
-          <folding>
-            <element signature="e#24793#24794#0" expanded="false" />
-            <element signature="e#24833#24834#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinMapperRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="e#1585#1586#0" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="92" column="3" lean-forward="false" selection-start-line="34" selection-start-column="2" selection-end-line="92" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#1147#1148#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/builder/xml/XMLConfigBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="60" column="2" lean-forward="false" selection-start-line="60" selection-start-column="2" selection-end-line="82" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/builder/BaseBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinXMLConfigBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="73" column="28" lean-forward="false" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5254#5284#1" expanded="true" />
-            <element signature="e#11629#11659#1" expanded="true" />
-            <element signature="e#12279#12309#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinSqlSessionFactoryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-512">
-          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#2645#2646#0" expanded="true" />
-            <element signature="e#2704#2705#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/select/SelectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="65" column="11" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="65" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/test/resources/BlogUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <marker date="1548352914000" expanded="true" signature="798:851" ph="SELECT * FRO... blog_user" />
-            <marker date="1548352914000" expanded="true" signature="959:1012" ph="SELECT * FRO... blog_user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/xml/XmlSelectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="36" column="68" lean-forward="false" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1723#1724#0" expanded="true" />
-            <element signature="e#1753#1754#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/DeleteBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/intercepter/PagerInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/BlogUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/AbstractCRUDTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="82" column="82" lean-forward="false" selection-start-line="82" selection-start-column="82" selection-end-line="82" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2188#2189#0" expanded="true" />
-            <element signature="e#2245#2246#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>mybatis-penguin-core</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: log4j:log4j:1.2.16</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

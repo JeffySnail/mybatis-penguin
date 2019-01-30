@@ -8,6 +8,95 @@
     <artifactId>mybatis-penguin</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <mybatis-penguin.version>1.0-SNAPSHOT</mybatis-penguin.version>
+        <mybatis.version>3.4.6</mybatis.version>
+        <persistence.version>1.0.2</persistence.version>
+        <mybatis.connector.version>5.1.12</mybatis.connector.version>
+        <mybatis-spring.version>2.0.0</mybatis-spring.version>
+        <spring-jdbc.version>4.3.16.RELEASE</spring-jdbc.version>
+        <spring-tx.version>4.3.16.RELEASE</spring-tx.version>
+        <spring-boot-autoconfigure.version>1.5.4.RELEASE</spring-boot-autoconfigure.version>
+        <spring-boot-configuration-processor.version>1.5.4.RELEASE</spring-boot-configuration-processor.version>
+    </properties>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.coder.enhance</groupId>
+                <artifactId>mybatis-penguin-api</artifactId>
+                <version>${mybatis-penguin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>1.2.16</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>1.7.5</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-log4j12</artifactId>
+                <version>1.7.10</version>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.7</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mybatis.connector.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.persistence</groupId>
+                <artifactId>persistence-api</artifactId>
+                <version>${persistence.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.coder.enhance</groupId>
+                <artifactId>mybatis-penguin-spring-boot-starter</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis-spring</artifactId>
+                <version>${mybatis-spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-tx</artifactId>
+                <version>${spring-tx.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-jdbc</artifactId>
+                <version>${spring-jdbc.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-autoconfigure</artifactId>
+                <version>${spring-boot-autoconfigure.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-configuration-processor</artifactId>
+                <version>${spring-boot-configuration-processor.version}</version>
+                <optional>true</optional>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <build>
         <plugins>
             <plugin>
@@ -23,5 +112,7 @@
     <modules>
         <module>mybatis-penguin-api</module>
         <module>mybatis-penguin-core</module>
+        <module>mybatis-penguin-spring-boot-starter</module>
+        <module>mybatis-penguin-spring-boot-starter-test</module>
     </modules>
 </project>

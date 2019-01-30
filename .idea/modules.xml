@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/mybatis-penguin.iml" filepath="$PROJECT_DIR$/mybatis-penguin.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-penguin-api/mybatis-penguin-api.iml" filepath="$PROJECT_DIR$/mybatis-penguin-api/mybatis-penguin-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-penguin-core/mybatis-penguin-core.iml" filepath="$PROJECT_DIR$/mybatis-penguin-core/mybatis-penguin-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/mybatis-penguin-spring-boot-starter.iml" filepath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/mybatis-penguin-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/mybatis-penguin-spring-boot-starter-test.iml" filepath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/mybatis-penguin-spring-boot-starter-test.iml" />
     </modules>
   </component>
 </project>
