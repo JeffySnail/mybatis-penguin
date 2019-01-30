@@ -106,16 +106,4 @@ public class PageModel<T> implements Serializable {
         this.pageCount = pageCount;
     }
 
-    @Override
-    public String toString() {
-        return "PageModel{" +
-                "totalCount=" + totalCount +
-                ", pageCount=" + pageCount +
-                ", pageSize=" + pageSize +
-                ", page=" + page +
-                ", records=" + records +
-                ", sortField='" + sortField + '\'' +
-                ", sortAsc=" + sortAsc +
-                '}';
-    }
 }

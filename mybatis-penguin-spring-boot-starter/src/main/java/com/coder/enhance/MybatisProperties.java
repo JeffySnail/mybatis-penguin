@@ -22,7 +22,7 @@ public class MybatisProperties {
 
     public static final String MYBATIS_PREFIX = "mybatis";
 
-    private static final ResourcePatternResolver resourceResolver = new PathMatchingResourcePatternResolver();
+    private static final ResourcePatternResolver RESOURCE_RESOLVER = new PathMatchingResourcePatternResolver();
 
     /**
      * Location of MyBatis xml config file.
@@ -170,7 +170,7 @@ public class MybatisProperties {
 
     private Resource[] getResources(String location) {
         try {
-            return resourceResolver.getResources(location);
+            return RESOURCE_RESOLVER.getResources(location);
         } catch (IOException e) {
             return new Resource[0];
         }

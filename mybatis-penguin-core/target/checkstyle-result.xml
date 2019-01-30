@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/annotation/OrderBy.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/annotation/UpdateBy.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/BaseMapper.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/DeleteBuilder.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/InsertBuilder.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/KeyBuilder.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/ResultBuilder.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/SelectBuilder.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/SqlBuilder.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/UpdateBuilder.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/exception/MybatisSqlResourceException.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/intercepter/PagerInterceptor.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/EntityPortray.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/MapperUtils.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinConfiguration.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinMapperAnnotationBuilder.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinMapperMethod.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinMapperProxy.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinMapperProxyFactory.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinMapperRegistry.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinSqlSessionFactoryBuilder.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinXMLConfigBuilder.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/java/com/coder/enhance/plugin/Pager.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/main/resources/log4j.properties">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-core/src/test/resources/configuration.properties">
+</file>
+</checkstyle>

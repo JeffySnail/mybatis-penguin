@@ -2,49 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="126c4f65-b31b-4c7f-a7a7-7f73f4cb28c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/ApplicationBoot.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/controller/BlogUserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/entity/BlogDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/entity/BlogUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/mapper/BlogDetailMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/mapper/BlogUserMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/service/BlogService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/service/BlogServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/resources/BlogUserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/resources/init.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter-test/src/main/resources/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/ConfigurationCustomizer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/EnableMybatisPenguin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/MybatisAutoConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/MybatisProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/PenguinSqlSessionFactoryBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/SpringBootVFS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/resources/META-INF/spring.factories" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/resources/META-INF/spring.provides" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis-penguin-api/mybatis-penguin-api.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis-penguin-core/mybatis-penguin-core.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis-penguin.iml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/checkstyle.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/target/classes/META-INF/spring-configuration-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/target/classes/META-INF/spring.factories" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/target/classes/META-INF/spring.provides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-api/pom.xml" afterPath="$PROJECT_DIR$/mybatis-penguin-api/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-core/pom.xml" afterPath="$PROJECT_DIR$/mybatis-penguin-core/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinSqlSessionFactoryBuilder.java" afterPath="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinSqlSessionFactoryBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-core/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/mybatis-penguin-core/src/main/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/xml/XmlSelectTest.java" afterPath="$PROJECT_DIR$/mybatis-penguin-core/src/test/java/com/coder/enhance/xml/XmlSelectTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-core/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/mybatis-penguin-core/target/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-api/src/main/java/com/code/enhance/PageModel.java" afterPath="$PROJECT_DIR$/mybatis-penguin-api/src/main/java/com/code/enhance/PageModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-api/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/mybatis-penguin-api/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/SelectBuilder.java" afterPath="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/SelectBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/intercepter/PagerInterceptor.java" afterPath="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/intercepter/PagerInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/EntityPortray.java" afterPath="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/EntityPortray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinMapperRegistry.java" afterPath="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinMapperRegistry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/plugin/Pager.java" afterPath="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/plugin/Pager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-core/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/mybatis-penguin-core/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/EnableMybatisPenguin.java" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/EnableMybatisPenguin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/MybatisAutoConfiguration.java" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/MybatisAutoConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/MybatisProperties.java" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/MybatisProperties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/PenguinSqlSessionFactoryBean.java" afterPath="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/PenguinSqlSessionFactoryBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/target/" />
@@ -61,17 +39,114 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="PageModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-penguin-api/src/main/java/com/code/enhance/PageModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1494">
+              <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PagerInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/intercepter/PagerInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityPortray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/EntityPortray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PenguinMapperRegistry.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinMapperRegistry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/SelectBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="95" column="30" lean-forward="false" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PenguinSqlSessionFactoryBean.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/PenguinSqlSessionFactoryBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="446" column="46" lean-forward="false" selection-start-line="446" selection-start-column="46" selection-end-line="446" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MybatisAutoConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/MybatisAutoConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnableMybatisPenguin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/EnableMybatisPenguin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MybatisProperties.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/MybatisProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="24" column="66" lean-forward="false" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/plugin/Pager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pager</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,11 +156,39 @@
       <projects_view />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-penguin-api/src/main/java/com/code/enhance/PageModel.java" />
+        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/plugin/Pager.java" />
+        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/intercepter/PagerInterceptor.java" />
+        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/EntityPortray.java" />
+        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinMapperRegistry.java" />
+        <option value="$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/SelectBuilder.java" />
+        <option value="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/MybatisAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/EnableMybatisPenguin.java" />
+        <option value="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/MybatisProperties.java" />
+        <option value="$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/PenguinSqlSessionFactoryBean.java" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -205,6 +308,156 @@
               <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-penguin-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-penguin-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-penguin-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-penguin-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-penguin-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enhance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enhance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enhance" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enhance" type="462c0819:PsiDirectoryNode" />
+              <item name="intercepter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enhance" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-penguin-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enhance" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-penguin-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-penguin-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-penguin-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-penguin-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis-penguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis-penguin" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-penguin-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enhance" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -219,6 +472,14 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -324,15 +585,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548815665650</updated>
-      <workItem from="1548815666968" duration="9000" />
+      <workItem from="1548815666968" duration="909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9000" />
+    <option name="totallyTimeSpent" value="909000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="36" y="23" width="1404" height="877" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -343,11 +604,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31197098" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24320458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -375,7 +636,31 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/SpringBootVFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/ConfigurationCustomizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -383,12 +668,191 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/checkstyle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider editor-type-id="YarmPluginDependencyUpdater">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="YarmPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-penguin-api/src/main/java/com/code/enhance/PageModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1494">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/plugin/Pager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/intercepter/PagerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/EntityPortray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/mybatis/PenguinMapperRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-penguin-core/src/main/java/com/coder/enhance/builder/SelectBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="95" column="30" lean-forward="false" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/MybatisAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/EnableMybatisPenguin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/MybatisProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="24" column="66" lean-forward="false" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/PenguinSqlSessionFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="446" column="46" lean-forward="false" selection-start-line="446" selection-start-column="46" selection-end-line="446" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mybatis-penguin-api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

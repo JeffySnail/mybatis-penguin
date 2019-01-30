@@ -20,7 +20,7 @@ public class PenguinMapperRegistry extends MapperRegistry {
     private final Configuration config;
     private final Map<Class<?>, PenguinMapperProxyFactory<?>> knownMappers = new HashMap();
 
-    private static final Log logger = LogFactory.getLog(PenguinMapperRegistry.class);
+    private static final Log LOGGER = LogFactory.getLog(PenguinMapperRegistry.class);
 
     public PenguinMapperRegistry(Configuration config) {
         super(config);
@@ -67,7 +67,7 @@ public class PenguinMapperRegistry extends MapperRegistry {
                 }
                 loadCompleted = true;
             } catch (Exception e) {
-                logger.error("parse mapper failed", e);
+                LOGGER.error("parse mapper failed", e);
             } finally {
                 if (!loadCompleted) {
                     knownMappers.remove(type);

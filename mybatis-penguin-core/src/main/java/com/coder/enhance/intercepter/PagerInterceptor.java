@@ -25,7 +25,7 @@ import java.util.Properties;
  **/
 @Intercepts({@Signature(type = StatementHandler.class, method = "prepare", args = {Connection.class, Integer.class})})
 public class PagerInterceptor implements Interceptor {
-    private static final Log logger = LogFactory.getLog(PagerInterceptor.class);
+    private static final Log LOGGER = LogFactory.getLog(PagerInterceptor.class);
 
     @Override
     public Object intercept(Invocation invocation) throws Throwable {
@@ -100,7 +100,7 @@ public class PagerInterceptor implements Interceptor {
             int totalPage = totalCount / page.getPageSize() + ((totalCount % page.getPageSize() == 0) ? 0 : 1);
             page.setTotalPages(totalPage);
         } catch (SQLException e) {
-            logger.error("Ignore this exception", e);
+            LOGGER.error("Ignore this exception", e);
         } finally {
             closeResult(rs, countStmt);
         }
@@ -132,13 +132,13 @@ public class PagerInterceptor implements Interceptor {
             if (null != rs)
                 rs.close();
         } catch (SQLException e) {
-            logger.error("Ignore this exception", e);
+            LOGGER.error("Ignore this exception", e);
         }
         try {
             if (null != countStmt)
                 countStmt.close();
         } catch (SQLException e) {
-            logger.error("Ignore this exception", e);
+            LOGGER.error("Ignore this exception", e);
         }
         return true;
     }

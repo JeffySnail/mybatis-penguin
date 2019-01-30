@@ -50,7 +50,7 @@ import java.util.List;
 @AutoConfigureAfter(DataSourceAutoConfiguration.class)
 @Import(PagerInterceptor.class)
 public class MybatisAutoConfiguration implements InitializingBean {
-    private static final Log logger = LogFactory.getLog(MybatisAutoConfiguration.class);
+    private static final Log LOGGER = LogFactory.getLog(MybatisAutoConfiguration.class);
 
     private final MybatisProperties properties;
 
@@ -165,15 +165,15 @@ public class MybatisAutoConfiguration implements InitializingBean {
         public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {
 
             if (!AutoConfigurationPackages.has(this.beanFactory)) {
-                logger.debug("Could not determine auto-configuration package, automatic mapper scanning disabled.");
+                LOGGER.debug("Could not determine auto-configuration package, automatic mapper scanning disabled.");
                 return;
             }
 
-            logger.debug("Searching for mappers annotated with @Mapper");
+            LOGGER.debug("Searching for mappers annotated with @Mapper");
 
             List<String> packages = AutoConfigurationPackages.get(this.beanFactory);
-            if (logger.isDebugEnabled()) {
-                packages.forEach(pkg -> logger.debug(String.format("Using auto-configuration base package '%s'", pkg)));
+            if (LOGGER.isDebugEnabled()) {
+                packages.forEach(pkg -> LOGGER.debug(String.format("Using auto-configuration base package '%s'", pkg)));
             }
 
             ClassPathMapperScanner scanner = new ClassPathMapperScanner(registry);
@@ -212,7 +212,7 @@ public class MybatisAutoConfiguration implements InitializingBean {
 
         @Override
         public void afterPropertiesSet() {
-            logger.debug(String.format("No %s found.", MapperFactoryBean.class.getName()));
+            LOGGER.debug(String.format("No %s found.", MapperFactoryBean.class.getName()));
         }
     }
 }

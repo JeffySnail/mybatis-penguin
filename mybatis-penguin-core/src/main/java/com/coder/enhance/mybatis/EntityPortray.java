@@ -19,7 +19,7 @@ import java.util.*;
  * @date 2019/1/22
  **/
 public class EntityPortray {
-    private static final Log logger = LogFactory.getLog(EntityPortray.class);
+    private static final Log LOGGER = LogFactory.getLog(EntityPortray.class);
     private String name;
     private Map<String, String> columnMap = new HashMap<>();
     private Map<String, Class<?>> columnTypeMap = new HashMap<>();
@@ -82,7 +82,7 @@ public class EntityPortray {
             columnTypeMap.put(field.getName(), field.getType());
         }
         if (!hasKey) {
-            logger.error("Table " + name + "has no primary key, please use @javax.persistence.Id to annotate one field of " + entityClass);
+            LOGGER.error("Table " + name + "has no primary key, please use @javax.persistence.Id to annotate one field of " + entityClass);
             System.err.println("Table " + name + "has no primary key, please use @javax.persistence.Id to annotate one field of " + entityClass);
             throw MybatisSqlResourceException.newException("Table " + name + "has no primary key, please use @javax.persistence.Id to annotate one field of " + entityClass);
 

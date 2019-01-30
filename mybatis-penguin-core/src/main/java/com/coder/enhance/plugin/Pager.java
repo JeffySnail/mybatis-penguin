@@ -102,15 +102,4 @@ public class Pager extends RowBounds implements Serializable {
         this.totalCount = totalCount;
     }
 
-    @Override
-    public String toString() {
-        return "Pager{" +
-                "totalCount=" + totalCount +
-                ", totalPages=" + totalPages +
-                ", page=" + page +
-                ", pageSize=" + pageSize +
-                ", sortField='" + sortField + '\'' +
-                ", sortAsc=" + sortAsc +
-                '}';
-    }
 }

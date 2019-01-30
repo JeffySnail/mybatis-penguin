@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/ApplicationBoot.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/controller/BlogUserController.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/entity/BlogDetail.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/entity/BlogUser.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/mapper/BlogDetailMapper.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/mapper/BlogUserMapper.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/service/BlogService.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-spring-boot-starter-test/src/main/java/com/coder/enhance/service/BlogServiceImpl.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-spring-boot-starter-test/src/main/resources/application.properties">
+</file>
+</checkstyle>

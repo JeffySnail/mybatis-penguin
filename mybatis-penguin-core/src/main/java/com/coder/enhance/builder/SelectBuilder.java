@@ -84,7 +84,7 @@ public class SelectBuilder implements SqlBuilder {
         private final String separator;
         private StringBuilder stringBuilder;
 
-        public Joiner(String separator) {
+        Joiner(String separator) {
             this.separator = separator;
         }
 

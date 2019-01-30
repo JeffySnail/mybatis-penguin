@@ -35,18 +35,6 @@ public class BlogUser {
     @Column(name = "update_time")
     private Date updateTime;
 
-
-    @Override
-    public String toString() {
-        return "BlogUser{" +
-                "userId=" + userId +
-                ", userName='" + userName + '\'' +
-                ", userSex=" + userSex +
-                ", userAddress='" + userAddress + '\'' +
-                ", userNation='" + userNation + '\'' +
-                '}';
-    }
-
     public Integer getUserId() {
         return userId;
     }

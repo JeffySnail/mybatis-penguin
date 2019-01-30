@@ -1,9 +1,8 @@
 package com.coder.enhance;
 
-import java.lang.annotation.*;
-
 import org.springframework.boot.autoconfigure.ImportAutoConfiguration;
-import org.springframework.context.annotation.Import;
+
+import java.lang.annotation.*;
 
 /**
  * @author jeffy

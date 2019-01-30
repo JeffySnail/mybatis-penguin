@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/ConfigurationCustomizer.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/EnableMybatisPenguin.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/MybatisAutoConfiguration.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/MybatisProperties.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/PenguinSqlSessionFactoryBean.java">
+</file>
+<file name="/Users/jeffy/Dev/mybatis-penguin/mybatis-penguin-spring-boot-starter/src/main/java/com/coder/enhance/SpringBootVFS.java">
+</file>
+</checkstyle>

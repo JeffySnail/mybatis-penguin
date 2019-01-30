@@ -16,6 +16,8 @@
         <mybatis-spring.version>2.0.0</mybatis-spring.version>
         <spring-jdbc.version>4.3.16.RELEASE</spring-jdbc.version>
         <spring-tx.version>4.3.16.RELEASE</spring-tx.version>
+        <maven-source.version>3.0.1</maven-source.version>
+        <checkstyle.version>2.17</checkstyle.version>
         <spring-boot-autoconfigure.version>1.5.4.RELEASE</spring-boot-autoconfigure.version>
         <spring-boot-configuration-processor.version>1.5.4.RELEASE</spring-boot-configuration-processor.version>
     </properties>
@@ -106,6 +108,39 @@
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>${checkstyle.version}</version>
+                <configuration>
+                    <configLocation>config/checkstyle.xml</configLocation>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>checkstyle</id>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                        <configuration>
+                            <failOnViolation>true</failOnViolation>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>${maven-source.version}</version>
+                <executions>
+                    <execution>
+                        <id>install</id>
+                        <goals>
+                            <goal>jar-no-fork</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
